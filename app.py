@@ -35,3 +35,12 @@ st.markdown("""
     <a href='https://www.linkedin.com/in/sanika-shelar' target='_blank' style='text-decoration:none;'>💼 LinkedIn</a>
 </div>
 """, unsafe_allow_html=True)
+# Hide Streamlit default footer
+hide_style = """
+<style>
+footer {visibility: hidden;}
+#MainMenu {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_style, unsafe_allow_html=True)
