@@ -5,7 +5,7 @@ st.set_page_config(page_title="Ingredient Analyzer", page_icon="🧴")
 st.title("🧴 Ingredient Safety Checker")
 st.write("Enter any cosmetic ingredient and check its safety instantly!")
 
-df = pd.read_excel('ingredients.xls', engine='openpyxl')
+pd.read_excel('ingredients.xls')
 
 user_input = st.text_input("Enter ingredient to check:", placeholder="e.g. - paraben, vitamin c")
 
