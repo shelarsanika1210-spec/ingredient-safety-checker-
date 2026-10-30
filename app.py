@@ -26,3 +26,12 @@ if user_input:
 st.write("---")
 st.write("Available ingredients in database:")
 st.dataframe(df)
+# --- FOOTER - Created By Sanika Shelar ---
+st.markdown("---")
+st.markdown("""
+<div style='text-align:center; padding: 15px; background-color: #f9f9f9; border-radius: 10px; margin-top: 20px;'>
+    <p style='color:#333; font-size:16px; margin-bottom: 5px;'>Made with ❤️ by <b>Sanika Shelar</b></p>
+    <a href='https://github.com/shelarsanika1210-spec' target='_blank' style='text-decoration:none; margin-right:15px;'>🌟 GitHub</a>
+    <a href='https://www.linkedin.com/in/sanika-shelar' target='_blank' style='text-decoration:none;'>💼 LinkedIn</a>
+</div>
+""", unsafe_allow_html=True)
